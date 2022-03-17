@@ -1,2 +1,2 @@
 # SII
-Codes to reproduce results for paper "Superior Identification Index – Quantifying the capability of academic journals to recognize good research"
+Codes to reproduce results for paper "Superior identification index – Quantifying the capability of academic journals to recognize good research"
