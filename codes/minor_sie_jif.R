@@ -55,7 +55,7 @@ siie %>%
   geom_smooth(method = "lm",se = F,linetype = "dashed") +
   facet_wrap(~p_label,nrow = 2) +
   labs(y = "SIE",x = "JIF") +
-  ggpubr::stat_cor(label.y = 1.1,method = "spearman") +
+  ggpubr::stat_cor(label.y = 1.2,method = "spearman") +
   theme_bw()
-
+ggsave("output/minor_topPaper_cor_jif_sie_4p.png",width = 5,height = 5)
 
